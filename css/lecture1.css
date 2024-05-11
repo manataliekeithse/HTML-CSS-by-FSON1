@@ -1,0 +1,46 @@
+p {
+  color: blue;
+  font-size: 24px;
+}
+
+/* Element Selector */
+
+h2 {
+  color: purple;
+}
+
+/* Class Selector */
+
+.orange {
+  color: orange;
+}
+.red-background {
+  background-color: antiquewhite;
+}
+
+/* ID Selector */
+
+#about {
+  color: green;
+}
+
+/* Descendant Selector */
+.social-links a {
+  color: blue;
+}
+
+/* Child Selector */
+.menu > li {
+  border: 1px solid magenta;
+}
+
+/* Attribute Selector */
+a[title] {
+  color: teal;
+}
+
+/* Attribute Selector with Value */
+a[href='https://htmlreference.io']
+{
+  color: violet;
+}

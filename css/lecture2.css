@@ -1,0 +1,26 @@
+.social-links .link {
+  color: teal;
+}
+
+/* Pseudo class in links */
+/* :hover */
+
+.social-links .link:hover {
+  color: blue;
+}
+
+/* :focus */
+.social-links .link:focus {
+  color: goldenrod;
+}
+
+/* :active */
+
+.social-links .link:active {
+  color: red;
+}
+
+/* :visited */
+.social-links .link:visited {
+  color: purple;
+}
