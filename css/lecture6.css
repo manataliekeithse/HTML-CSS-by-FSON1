@@ -1,0 +1,13 @@
+/* DRY principle */
+
+:root {
+  --brand-color: #3f51b5;
+}
+
+.section {
+  border: 2px solid var(--brand-color);
+}
+
+.section-title {
+  color: var(--brand-color, orange);
+}

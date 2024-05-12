@@ -1,0 +1,24 @@
+.text {
+  color: tomato;
+  background-color: black;
+}
+
+/*  1. color name */
+.color-name {
+  color: magenta;
+}
+
+/*  2. rgb */
+.rgb {
+  color: rgb(13, 0, 255);
+}
+
+/*  3. Hexadecimal */
+.hexadecimal {
+  color: #f00000;
+}
+
+/*  4. rgba */
+.rgba {
+  color: rgba(240, 116, 0, 0.934);
+}

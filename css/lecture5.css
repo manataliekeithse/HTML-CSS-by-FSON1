@@ -1,0 +1,8 @@
+.post {
+  color: green;
+}
+
+/* manually inherit anchor tags */
+.post-link {
+  color: inherit;
+}

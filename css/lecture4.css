@@ -1,0 +1,64 @@
+/* Rank 4 Elements */
+p {
+  color: red;
+}
+
+/* Rank 3 Elements */
+.pink {
+  color: blueviolet;
+}
+
+/* Rank 2 ID */
+#orange {
+  color: orange;
+}
+
+/* Rank 1 Inline styles */
+
+/*  How to avoid Specificity */
+/* 1. child and descendant selectors */
+.post > h1 {
+  /* styles here */
+}
+
+.post > p {
+  /* styles here */
+}
+
+.post > a {
+  /* styles here */
+}
+
+/* Adding descriptive classes on parent and child tags */
+.post {
+  /* styles here */
+}
+
+.post > .title {
+  /* styles here */
+}
+
+.post > .text {
+  /* styles here */
+}
+
+.post > .link {
+  /* styles here */
+}
+
+/* Parent name Child name */
+.post {
+  /* styles here */
+}
+
+.post-title {
+  /* styles here */
+}
+
+.post-text {
+  /* styles here */
+}
+
+.post-link {
+  /* styles here */
+}
